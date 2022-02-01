@@ -9,3 +9,36 @@ font-family: 'Montserrat', sans-serif;
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
+.exame-button {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    border-color: blue;
+    border-radius: 5px;
+}
+
+.search-button {
+    padding: 4px;
+    background-color: orange;
+    color: black;
+    cursor: pointer;
+    border-color: orange;
+    border-radius: 5px;
+}
+
+.clear-button {
+    padding: 7px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border-color: red;
+    font-weight: bold;
+    border-radius: 5px;
+    visibility: hidden;
+}
+
+.search-divider, .search-result {
+    display: none;
+}

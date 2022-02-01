@@ -10,9 +10,8 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 
-<!-- <body onload="generateGraphStats()"> -->
 <body>
-    <p>
+    <!-- <p>
         L'Ateniese Milziade, figlio di Cimone, spiccava fra tutti sia per l'antichità della stirpe, sia per la gloria
         degli antenati,
         sia per la propria saggezza ed aveva un'età tale che i suoi concittadini potevano non più solo concepire buone
@@ -32,10 +31,17 @@
         salpato con la flotta da casa sua, avesse raggiunto Lemno con il vento di tramontana.
         Questo vento infatti sorgendo da settentrione tiene la direzione contraria per chi parte da Atene.
         Milziade, non avendo tempo di trattenersi, indirizzò la rotta verso la sua meta e arrivò nel Chersoneso.
-    </p>
+    </p> -->
+    <textarea name="insert-test" id="insert-test" cols="150" rows="20"></textarea>
     <br><br>
-    <button onclick="startSearch()">Search</button>
-    <br><br><hr>
+    <button class="exame-button" onclick="startExame()">ESAMINA</button><br><br>
+    <button class="search-button" onclick="startSearch()">Cerca</button><br><br><br>
+    <button id="clear-button" class="clear-button" onclick="startClean()">PULISCI</button>
+    <br><br><hr id="search-divider" class="search-divider">
+    <p id="search-result" class="search-result">
+
+    </p>
+    <br><hr>
     <p id="stats-paragraph">
 
     </p>
