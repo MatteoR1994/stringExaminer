@@ -99,8 +99,10 @@ function findAllIndexes(string, word) {
 }
 
 function startSearch() {
+    const t1 = document.getElementById("insert-test");
+    const userTxt = t1.value;
     const wordToSearch = prompt("inserisci la parola da cercare:");
-    const arrayOfIndex = findAllIndexes(text, wordToSearch);
+    const arrayOfIndex = findAllIndexes(userTxt, wordToSearch);
     const p2 = document.getElementById("search-divider");
     const p3 = document.getElementById("search-result");
 
